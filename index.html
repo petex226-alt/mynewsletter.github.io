@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+        
+    <div class="content">
+      <h1>Stay Updated!</h1>
+      <p>Join 60,000+ subscribers to get the latest updates on:</p>
+      <p class="tick">Product launches, exclusive offers, and industry insights.</p>
+      <p class="tick">Don't miss out on our exciting news and updates. Subscribe now!</p>
+      <p class="tick">And much more!</p>
+
+      <form id="emailForm" class="form">
+        <div class="input-group">
+          <input 
+            type="email" 
+            id="emailInput" 
+            placeholder="Enter your email"
+            required
+          >
+          <div class="error-message" id="errorMessage"></div>
+        </div>
+        <button type="submit" class="btn-submit">Subscribe to monthly newsletters</button>
+      </form>
+      
+      <div class="success-message" id="successMessage">
+        <p>Thanks for subscribing!</p>
+        <p id="successEmail"></p>
+        
+      </div>   
+    </div>
+    <img src="./images/flat-lay-top-view-office-table-desk-workspace-background.jpg" alt="Newsletter illustration">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
